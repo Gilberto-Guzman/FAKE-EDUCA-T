@@ -1,0 +1,87 @@
+li>span.badge{
+display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #4480bb;
+    border-radius: 10px;
+    float: right;
+
+}
+
+
+/* Para la pestaña de introduccion que se pone en color transparente la letra
+a>innertab.tab_initial{
+color:black;
+}*/
+
+
+
+/*.list-group-item.active>.badge,.nav-pills>.active>a>.badge{
+	color:#0080ab;background-color:#fff;}
+
+/*.list-group-item>.badge{float:right;} */
+
+.list-group-item>.badge+.badge{margin-right:5px;}
+.panel{margin-bottom:16px;background-color:#fff;border:1px solid transparent;border-radius:4px;-webkit-box-shadow:0 1px 1px rgba(0,0,0,0.05);box-shadow:0 1px 1px rgba(0,0,0,0.05)}
+.panel-body{padding:10px 10px 5px}
+/*.panel-heading{padding:5px 5px 0;border-bottom:1px solid transparent;border-top-right-radius:3px;border-top-left-radius:3px}
+.panel-heading>.dropdown .dropdown-toggle{color:inherit}
+/*.panel-title{margin:0;padding:5px 5px 10px;font-size:1em;color:inherit;font-weight: bold;}
+.panel-title>a,.panel-title>small,.panel-title>.small,.panel-title>small>a,.panel-title>.small>a{color:inherit} */
+.panel-footer{padding:10px 15px;background-color:#fff;border-top:1px solid #ddd;border-bottom-right-radius:3px;border-bottom-left-radius:3px}
+.panel-default{border-color:#e6e6e6;width:210px;}.panel-default>.panel-heading{color:#000;background-color:#fff;border-color:#808080}
+/*.panel-default>.panel-heading+.panel-collapse>.panel-body{border-top-color:#ddd}
+.panel-default>.panel-heading .badge{color:#f5f5f5;background-color:#333}
+.panel-default>.panel-footer+.panel-collapse>.panel-body{border-bottom-color:#ddd}
+*/
+
+.block-heading i{color:#ccc;cursor:pointer;display:none;float:right}
+
+.block-heading i.current{color:#3b3b3b}
+
+.block-heading>h3{font-size: 1.2em;}
+
+.block-body{padding:20px 0}
+
+p.header,p.content,p.reference,p.glossary,.list li{line-height:150%;text-align:justify;}
+p.reference{padding-left:37px;text-indent:-37px;word-wrap:break-word}
+p.header{font-weight:700}.list li{margin-bottom:8px}
+
+/*Para iconos de lecutras pdf word excel videos*/
+/*.lk,.ic{background-size:22px;background-repeat:no-repeat;display:inline-block;height:22px;margin:0 2px;position:relative;vertical-align:bottom;width:22px}
+.lk-book{background-image:url(image/ic-book.png)}
+.lk-download{background-image:url(image/ic-download.png)}
+.lk-excel{background-image:url(image/ic-excel.png)}
+.lk-link{background-image:url(image/ic-link.png)}
+.lk-pdf{background-image:url(image/ic-pdf.png)}
+.lk-power{background-image:url(image/ic-power.png)}
+.lk-resource{background-image:url(image/ic-resource.png)}
+.lk-video{background-image:url(image/ic-video.png)}
+.lk-word{background-image:url(image/ic-word.png)}
+.lk-image{background-image: url(image/ic-image.png)}
+.ic-chat{background-image:url(image/ic-chat.png)}
+.ic-evaluation{background-image:url(image/ic-evaluation.png)}
+.ic-forum{background-image:url(image/ic-forum.png)}
+.ic-quiz{background-image:url(image/ic-quiz.png)}
+.ic-wiki{background-image:url(image/ic-wiki.png)}
+.ic-audio{width: 26px;height: 26px;background-image:url(image/ic-audio.png)}
+*/
+/*-----------------------------------------------------------------------------------*/
+
+.dis-block{display:block!important}.dis-none{display:none!important}footer{margin-top:10px}footer p{padding:15px 0}
+
+@media only screen and (max-width : 992px){body{font-size:14px}
+
+
+.block-heading{display:block;margin-bottom:15px}
+.block-heading i{display:inline;height:35px;font-size:35px;width:35px}
+.arblock{margin-bottom:20px}
+.arblock .block-body{display:none;padding:10px 0 5px}
+
+.block-heading i{height:30px;font-size:30px;line-height:30px;width:30px}
